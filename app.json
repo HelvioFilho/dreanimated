@@ -4,7 +4,7 @@
     "slug": "Dreanimated",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": ".src/assets/images/icon.png",
+    "icon": "./src/assets/images/icon.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hsvf.Dreanimated"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./src/assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.hsvf.Dreanimated"
     },
     "plugins": ["expo-router"],
     "experiments": {
