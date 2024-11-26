@@ -22,7 +22,7 @@
 
 The features section is where I'll showcase the functionality of the app, including both current and planned ones:
 
-- [] FlashCards
+- [ ] FlashCards
 
 ## Technologies
 
